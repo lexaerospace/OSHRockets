@@ -39,11 +39,11 @@ If you have CAD files and are willing to write some documentation, please make a
    - Inner Print Diameter : ???
    - Outer Print Diameter : ???  
 
-### Part Strength
+### Part Strength/Weight
 
- - For a part to be considered "high strength" walls must be solid and at least 5mm thick. Walls cannot be skeletonized.
- - Low strength parts should stay generally stay above 2mm thick and below 5mm thick. Walls can be skeletonized.
- - All separator Bulkheads should be 4mm thick
+ - For a part to be considered high strength/weight walls must be solid and at least 5mm thick. Walls cannot be skeletonized.
+ - Low strength/weight parts should stay generally stay above 2mm thick and below 5mm thick. Walls can be skeletonized.
+ - All separator Bulkheads should be at least 4mm thick
 
 ### Other Dimensions
  - Fins designed for an internal fin aligner should have a 40mm long fin tab
