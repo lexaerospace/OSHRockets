@@ -14,9 +14,20 @@ If you have CAD files and are willing to write some documentation, please make a
 ### OSHRockets Standards
 ### Files
 Here is how to format a part folder
+<PartName> is the type of part, for example: Nosecone, Transition, FinCan, etc.
+<Specs> are added using tags, D:diameter L:length M:mass
+<Infor> is other info, describing the part in under 30 characters
  - DIR: <PartName>_<Specs>_<Info> 
-   - <PartName>.STEP
-   - <PartName>.STL
+   - <PartName>_<component>.step (If multiple .step, specify the <component> tag)
+   - <PartName>_<component>.stl
+   - Description.md
+   - Icon.png
+For example: 
+ - Nosecone_D:BT-80lL:5cmM:60g_ClayPayload
+   - Nosecone_Top.step
+   - Nosecone_Bottom.step
+   - Nosecone_Top.stl
+   - Nosecone_Bottom.stl
    - Description.md
    - Icon.png
 
