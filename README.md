@@ -12,7 +12,7 @@ If you have CAD files and are willing to write some documentation, please make a
 - Recommended usage, Ex: "Flew on ~500g 1m length rocket with Aerotech F26-6FJ"  
 
 ### OSHRockets Standards
-### Files
+### File Organization
 Here is how to format a part folder:
 
 <PartName> is the type of part, for example: Nosecone, Transition, FinCan, etc.
