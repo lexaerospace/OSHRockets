@@ -29,13 +29,13 @@ Here is how to format a part folder:
    - Description.md
    - Icon.png
 
-For example, a BT-80 diameter, 5cm tall, 60g nosecone that stores clay: 
+For example, a BT-80 diameter, 5cm tall, 60g ogive nosecone that stores clay: 
 
- - Nosecone_D:BT-80\_L:5cm\_M:60g_ClayPayload
-   - Nosecone_Top.step
-   - Nosecone_Bottom.step
-   - Nosecone_Top.stl
-   - Nosecone_Bottom.stl
+ - NoseconeOgive_D:BT-80\_L:5cm\_M:60g_ClayPayload
+   - NoseconeOgive_Top.step
+   - NoseconeOgive_Bottom.step
+   - NoseconeOgive_Top.stl
+   - NoseconeOgive_Bottom.stl
    - Description.md
    - Icon.png
 
