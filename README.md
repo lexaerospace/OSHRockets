@@ -17,15 +17,15 @@ Adhere to these standards or your pull request won't be merged.
 #### File Organization
 Here is how to format a part folder:
 
-<PartName> is the type of part, for example: Nosecone, Transition, FinCan, etc.
+`PartName` is the type of part, for example: Nosecone, Transition, FinCan, etc.
  
-<Specs> are added using tags, D:diameter L:length M:mass
+`Specs` are added using tags, D:diameter L:length M:mass
  
-<Info> is other info, describing the part in under 30 characters
+`Info` is other info, describing the part in under 30 characters
  
- - DIR: <PartName>_<Specs>_<Info> 
-   - <PartName>_<component>.step (If multiple .step, specify the <component> tag)
-   - <PartName>_<component>.stl
+ - DIR: `PartName`_`Specs`_`Info` 
+   - `PartName`_`component`.step (If multiple .step, specify the `component` tag)
+   - `PartName`_`component`.stl
    - Description.md
    - Icon.png
 
