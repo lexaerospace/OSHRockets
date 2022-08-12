@@ -23,9 +23,9 @@ Here is how to format a part folder:
  
 `Info` is other info, describing the part in under 30 characters
  
- - DIR: `PartName`_`Specs`_`Info` 
-   - `PartName`_`component`.step (If multiple .step, specify the `component` tag)
-   - `PartName`_`component`.stl
+ - DIR: `PartName`\_`Specs`\_`Info` 
+   - `PartName`\_`component`.step (If multiple .step, specify the `component` tag)
+   - `PartName`\_`component`.stl
    - Description.md
    - Icon.png
 
