@@ -19,7 +19,7 @@ Here is how to format a part folder:
 
 `PartName` is the type of part, for example: Nosecone, Transition, FinCan, etc.
  
-`Specs` are added using tags, D:diameter L:length M:mass
+`Specs` are added using tags, D:diameter\_L:length\_M:mass, order doesn't matter
  
 `Info` is other info, describing the part in under 30 characters
  
@@ -29,9 +29,9 @@ Here is how to format a part folder:
    - Description.md
    - Icon.png
 
-For example, for a BT-80 diameter, 5cm tall nosecone that weighs 60g and stores clay: 
+For example, a BT-80 diameter, 5cm tall, 60g nosecone that stores clay: 
 
- - Nosecone_D:BT-80lL:5cmM:60g_ClayPayload
+ - Nosecone_D:BT-80\_L:5cm\_M:60g_ClayPayload
    - Nosecone_Top.step
    - Nosecone_Bottom.step
    - Nosecone_Top.stl
