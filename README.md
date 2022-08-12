@@ -2,7 +2,7 @@
 An open-source part CAD library for model rocketry. All parts are welcome, just follow the standards.
 If you have CAD files and are willing to write some documentation, please make a pull request and add your parts to the library. 
 
-## Contributing Standards:
+## Contribution Guide:
 1. Parts must be flight-proven, and their usage made explicity clear
 2. STEP or STL only, no proprietary formats
 3. Each part file must have an accompanying .txt with identical filename
@@ -11,11 +11,16 @@ If you have CAD files and are willing to write some documentation, please make a
 - Recommended print settings and weight (if applicable)
 - Recommended usage, Ex: "Flew on ~500g 1m length rocket with Aerotech F26-6FJ"  
 
+### OSHRockets Standards
+### Files
+Here is how to format a part folder
+ - DIR: <PartName>_<Specs>_<Info> 
+   - <PartName>.STEP
+   - <PartName>.STL
+   - Description.md
+   - Icon.png
 
-
-
-## Standard OSHRockets Dimensions
-### Body Tube Sizes
+#### Body Tube Sizes
  - Body Tube 80 (BT-80)
    - Inner diameter : 65.0mm
    - Outer diameter : 66.0mm
@@ -39,13 +44,13 @@ If you have CAD files and are willing to write some documentation, please make a
    - Inner Print Diameter : ???
    - Outer Print Diameter : ???  
 
-### Part Strength/Weight
+#### Part Strength/Weight
 
  - For a part to be considered high strength/weight walls must be solid and at least 5mm thick. Walls cannot be skeletonized.
  - Low strength/weight parts should stay generally stay above 2mm thick and below 5mm thick. Walls can be skeletonized.
  - All separator Bulkheads should be at least 4mm thick
 
-### Other Dimensions
+#### Other Dimensions
  - Fins designed for an internal fin aligner should have a 40mm long fin tab
  - All Fin tab widths should equal (in mm) (body tube outer diameter - engine tube outer diameter)/2+.2
  - Internal fin aligner slots should be 40mm tall and 3.2mm wide
