@@ -12,7 +12,9 @@ If you have CAD files and are willing to write some documentation, please make a
 - Recommended usage, Ex: "Flew on ~500g 1m length rocket with Aerotech F26-6FJ"  
 
 ### OSHRockets Standards
-### File Organization
+Adhere to these standards or your pull request won't be merged.
+
+#### File Organization
 Here is how to format a part folder:
 
 <PartName> is the type of part, for example: Nosecone, Transition, FinCan, etc.
@@ -37,6 +39,9 @@ For example, for a BT-80 diameter, 5cm tall nosecone that weighs 60g and stores 
    - Description.md
    - Icon.png
 
+#### Writing Part Descriptions
+To be written
+ 
 #### Body Tube Sizes
  - Body Tube 80 (BT-80)
    - Inner diameter : 65.0mm
